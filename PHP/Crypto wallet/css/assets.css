@@ -1,0 +1,162 @@
+/* General styles */
+body {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Menu styles */
+.container .menu {
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.menu form input {
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+}
+
+/* Assets styles */
+.assets {
+    flex: 1;
+    padding: 20px;
+    margin-left: 15%;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    width: 82%;
+}
+
+/* Additional styles for assets section */
+.asset_heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.total_assets {
+    margin-bottom: 20px;
+    backdrop-filter: blur(15px);
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+
+.total_assets h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+.total_assets p{
+    margin-bottom: 10px;
+    color: white;
+}
+.total_bal {
+    display: flex;
+    align-items: center;
+}
+
+.total_bal p {
+    margin-right: 10px;
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    backdrop-filter: blur(15px);
+}
+
+.asset_block {
+    width: 100%;
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+ .asset_block p{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.intro_row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.intro_block {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.balance_row {
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin-right: 10px;
+}
+
+.amount {
+    flex: 1;
+    text-align: center;
+}
+
+.btn button {
+    margin-right: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .assets {
+        width: calc(100% - 15%);
+        padding: 10px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}

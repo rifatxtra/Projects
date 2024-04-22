@@ -1,0 +1,166 @@
+/* General styles */
+body {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Menu styles */
+.container .menu {
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.menu form input {
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+}
+/* menu */
+/* menu */
+
+/* content */
+/* content */
+.conversion{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin-left: 15%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.conversion .heading h1, .container h3{
+    color: white;
+    text-align: center;
+}
+
+/* Conversion */
+
+.conversion_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.conversion .f_half{
+    width: 30%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(10px);
+    border: white 1px solid;
+    border-radius: 10px;
+    margin-left: 0px;
+    height: max-content;
+}
+.conversion .l_half{
+    width: 65%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(10px);
+    /* border: white 1px solid;
+    border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    height: max-content;
+}
+.conversion button{
+    background-color: #ffffff00;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+.f_half form{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 3%;
+    padding-left: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.f_half form input,.f_half form select{
+    width: fit-content;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+
+/* conversion history start */
+.conversion_history{
+    padding-left: 4px;
+    width: 90%;
+    margin-right: 20px;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.conversion_history h2{
+    color: white;
+    text-align: center;
+}
+.conversion_history table {
+    width: 98%;
+    border-collapse: collapse;
+}
+
+
+
+/* .conversion_history table tr:hover {
+    background-color: #ffffff;
+    color: black;
+} */
+
+.conversion_history table th, 
+.conversion_history table td {
+    padding: 8px;
+    text-align: left;
+    border: 1.5px solid white;
+}
+
+.conversion_history table th {
+    background-color: #ffffff00;
+    color: white;
+}
+
+.conversion_history table td {
+    border-bottom: 1px solid black;
+}
+
+.conversion_history table td:first-child {
+    width: 25%;
+}
+
+/* Conversion history end */

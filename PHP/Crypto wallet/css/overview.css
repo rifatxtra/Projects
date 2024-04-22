@@ -1,0 +1,197 @@
+/* overview block start */
+body{
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    /* background-color: rgb(231, 232, 232); */
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Menu start */
+.container .menu{
+    height: 100%;
+    size: 25px;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+}
+
+.menu form input{
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+    
+}
+.overview{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    /* position: fixed; */
+    margin-left: 15%;
+    padding-left: 2%;
+}
+
+.overview .h1 h2{
+    text-align: center;
+}
+.balance{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #ffffff00;
+    /* border: 1.5px solid rgb(235, 229, 229); */
+    padding-left: 4px;
+    font-size: auto;
+}
+.block{
+    background-color: #ffffff00;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    padding: 4px;
+    backdrop-filter: blur(15px);
+    color: white;
+    border: 1.5px white solid;
+    border-radius: 5px;
+
+}
+.block .first_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.block .line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.transaction_summery{
+    padding-left: 4px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+}
+/* transaction block start */
+.transaction{
+    width: 70%;
+    margin-right: 4%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    color: white;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    height: 100%;
+}
+
+.transaction table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction table tr:nth-child(even) {
+    background-color: #fdfcfc00;
+}
+
+.transaction table tr:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.transaction table th, 
+.transaction table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.transaction table th {
+    background-color: black;
+    color: white;
+}
+
+.transaction table td {
+    border-bottom: 1px solid black;
+}
+
+.transaction table td:first-child {
+    width: 25%;
+}
+
+/* transaction block end */
+/* summer block start */
+.summery{
+    padding-left: auto;
+    /* margin-top: 20px; */
+    width: 30%;
+    border-radius: 5px;
+    /* background-color: white; */
+    height: 100%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    color: white;
+    border: 2px solid white;
+}
+.summery .total_rcv{
+    display: inline-block;
+}
+.summery .total_rcv p{
+    margin: auto;
+    color: white;
+}
+
+
+.summery p{
+    padding-left: 5px;
+}
+
+.summery h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.summery .text {
+    margin-bottom: 10px;
+    border: 2px solid white;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.overview .conversion{
+    width: 100%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    border: white 2px solid;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 6px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.overview .conversion p{
+    padding-left: 7px;
+    width: max-content;
+}

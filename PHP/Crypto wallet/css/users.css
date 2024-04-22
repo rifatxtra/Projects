@@ -1,0 +1,138 @@
+/* General styles */
+body {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Menu styles */
+.container .menu {
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.menu form input {
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+}
+/* menu */
+/* menu */
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin-left: 15%;
+    padding-left: 20px;
+}
+.content h1{
+    color: white;
+    text-align: center;
+}
+/* General Segment end */
+
+/* User management styles */
+.users {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 15%; */
+    padding-left: 20px;
+    color: white;
+}
+
+.users h1 {
+    text-align: center;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search-form input[type="text"],
+.search-form button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.user-table {
+    margin-top: 20px;
+}
+
+.user-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #333;
+    color: white;
+}
+.unban-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.ban-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+

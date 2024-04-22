@@ -1,0 +1,155 @@
+/* General styles */
+body {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Menu styles */
+.container .menu {
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.menu form input {
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+}
+/* menu */
+/* menu */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    color: white;
+    margin-left: 15%;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* Columns*/
+/* Columns*/
+.columns{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+/* Columns*/
+/* Columns*/
+
+/* Send start */
+/* Send start */
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1.5px white solid;
+    width: 35%;
+    height: max-content;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.send h2{
+    color: white;
+}
+
+.send form {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.send input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.send input[type="submit"] {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Send start */
+/* Send start */
+
+/* transactions */
+/* transactions */
+.transactions {
+    width: 60%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    overflow: auto; /* Enable scrolling */
+    color: white;
+    background-color: #ffffff00;
+    backdrop-filter: blur(4px);
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.transactions th {
+    background-color: #ffffff00;
+}
+/* transactions */
+/* transactions */

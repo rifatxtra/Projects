@@ -1,0 +1,108 @@
+/* General styles */
+body {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Menu styles */
+.container .menu {
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.menu form input {
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+}
+/* menu */
+/* menu */
+
+
+/* conversion history start */
+.conversion_history{
+    padding-left: 4px;
+    width: 90%;
+    margin-right: 20px;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.conversion_history h2{
+    color: white;
+    text-align: center;
+}
+.conversion_history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    margin-left: 15%;
+    /* justify-content: center; */
+    align-items: center;
+}
+.content h1{
+    color: white;
+    text-align: center;
+}
+
+
+.conversion_history table th, 
+.conversion_history table td {
+    padding: 8px;
+    text-align: left;
+    border: 1.5px solid white;
+}
+
+.conversion_history table th {
+    background-color: #ffffff00;
+    color: white;
+}
+
+.conversion_history table td {
+    border-bottom: 1px solid black;
+}
+
+.conversion_history table td:first-child {
+    width: 25%;
+}
+
+/* Conversion history end */

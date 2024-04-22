@@ -1,0 +1,113 @@
+/* General styles */
+body {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Menu styles */
+.container .menu {
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.menu form input {
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+}
+/* menu */
+/* menu */
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin-left: 15%;
+    padding-left: 20px;
+}
+.content h1{
+    color: white;
+    text-align: center;
+}
+/* General Segment end */
+/* Profile start */
+.profile{
+    border: 2px solid white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff00;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.profile .container_profile h1, .profile h2{
+    color: white;
+}
+.profile form input{
+    width: 100%;
+    height: 5vh;
+}
+.profile form label{
+    color: white;
+}
+.profile .container_profile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.profile .container_profile .profile_half{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile .container_profile .profile_half input{
+margin-bottom: 2vh;
+}
+.profile .container_profile .profile_half{
+    width: 67%;
+    backdrop-filter: blur(5px);
+}
+
+.profile .container_profile .profile_last {
+width: 30%;
+backdrop-filter: blur(5px);
+}
+.profile .profile_last div{
+margin-bottom: 3vh;
+}
+/* Profile end */

@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    background-image: url('../images/sr_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Menu styles */
+.container .menu {
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.menu form input {
+    margin-top: 5%;
+    background-color: #ffffff00;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    height: min-content;
+    width: 100%;
+}
+/* menu */
+/* menu */
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin-left: 15%;
+    padding-left: 20px;
+    overflow: auto; /* Enable scrolling */
+    margin-bottom: 10px;
+}
+.content h1{
+    color: white;
+    text-align: center;
+}
+/* General Segment end */
+
+
+.deposit_history{
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto 0; */
+    /* padding: 20px; */
+    color: white;
+    background-color: #ffffff00;
+    backdrop-filter: blur(4px);
+    margin-top: 10px;
+}
+.deposit_history h1{
+    text-align: center
+}
+.deposit_history table {
+    border: 1.5px solid white;
+    border-radius: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.deposit_history table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.deposit_history table td:nth-child(2) {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
