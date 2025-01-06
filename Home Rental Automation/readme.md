@@ -22,7 +22,7 @@ Welcome to the **Rental Management System University Project**! This comprehensi
 
 ```
 Rental-Management-System/
-├── public/    # Frontend code (React)
+├── frontend/    # Frontend code (React)
 └── api/       # Backend code (PHP)
 ```
 
@@ -78,7 +78,7 @@ Ensure you have the following installed:
 6. **Start the Development Servers**:
    - **Frontend**:
      ```bash
-     cd ../public
+     cd ../frontend
      npm start
      ```
    - **Backend**:
@@ -101,7 +101,7 @@ Ensure you have the following installed:
 
 - **Navigate to the public directory**:
   ```bash
-  cd public
+  cd frontend
   ```
 - **Install dependencies**:
   ```bash
